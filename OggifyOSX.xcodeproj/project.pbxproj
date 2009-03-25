@@ -14,6 +14,9 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B71577950F79F77800065F9F /* oggify in Resources */ = {isa = PBXBuildFile; fileRef = B71577700F79F77800065F9F /* oggify */; };
+		B71577A60F79F79200065F9F /* tag_wrapper in Resources */ = {isa = PBXBuildFile; fileRef = B71577960F79F79200065F9F /* tag_wrapper */; };
+		B71578B40F7A026700065F9F /* mutagen in Resources */ = {isa = PBXBuildFile; fileRef = B715781B0F7A026700065F9F /* mutagen */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* OggifyOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OggifyOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71577700F79F77800065F9F /* oggify */ = {isa = PBXFileReference; lastKnownFileType = folder; path = oggify; sourceTree = "<group>"; };
+		B71577960F79F79200065F9F /* tag_wrapper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tag_wrapper; sourceTree = "<group>"; };
+		B715781B0F7A026700065F9F /* mutagen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mutagen; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 		29B97314FDCFA39411CA2CEA /* OggifyOSX */ = {
 			isa = PBXGroup;
 			children = (
+				B715781B0F7A026700065F9F /* mutagen */,
+				B71577960F79F79200065F9F /* tag_wrapper */,
+				B71577700F79F77800065F9F /* oggify */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -168,6 +177,9 @@
 				77631A3F0C0748CF005415CB /* main.py in Resources */,
 				7790198F0C07548A00326F66 /* OggifyOSXAppDelegate.py in Resources */,
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
+				B71577950F79F77800065F9F /* oggify in Resources */,
+				B71577A60F79F79200065F9F /* tag_wrapper in Resources */,
+				B71578B40F7A026700065F9F /* mutagen in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+[submodule "oggify"]
+	path = oggify
+	url = git://git.scottr.org/oggify.git
+[submodule "tag_wrapper"]
+	path = tag_wrapper
+	url = git://git.scottr.org/tag_wrapper.git
