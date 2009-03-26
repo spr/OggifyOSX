@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -295,7 +293,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>295 300 690 397 0 0 1280 778 </string>
+						<string>291 296 690 397 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -332,7 +330,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {482, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>295 300 690 397 0 0 1280 778 </string>
+								<string>291 296 690 397 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -340,6 +338,8 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -352,7 +352,7 @@
 								<key>Frame</key>
 								<string>{{0, 5}, {482, 351}}</string>
 								<key>RubberWindowFrame</key>
-								<string>295 300 690 397 0 0 1280 778 </string>
+								<string>291 296 690 397 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -376,9 +376,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B71576850F79F18E00065F9F</string>
+				<string>B77B8B930F7B3F9000AA6108</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B71576860F79F18E00065F9F</string>
+				<string>B77B8B940F7B3F9000AA6108</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -515,7 +515,7 @@
 		<string>/Users/spr/dev/OggifyOSX/OggifyOSX.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>295 300 690 397 0 0 1280 778 </string>
+	<string>291 296 690 397 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

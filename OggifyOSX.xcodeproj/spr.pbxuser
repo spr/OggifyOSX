@@ -3,16 +3,30 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecture = i386;
 		activeBuildConfigurationName = Release;
-		activeExecutable = B71576790F79F17C00065F9F /* OggifyOSX */;
+		activeExecutable = B71576790F79F17C00065F9F /* Oggify */;
 		activeTarget = 8D1107260486CEB800E47090 /* OggifyOSX */;
 		addToTargets = (
 			8D1107260486CEB800E47090 /* OggifyOSX */,
 		);
 		codeSenseManager = B71576890F79F18E00065F9F /* Code sense */;
 		executables = (
-			B71576790F79F17C00065F9F /* OggifyOSX */,
+			B71576790F79F17C00065F9F /* Oggify */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -20,7 +34,7 @@
 					20,
 					243,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -35,20 +49,36 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 259649916;
-			PBXWorkspaceStateSaveDate = 259649916;
+			PBXPerProjectTemplateStateSaveDate = 259732689;
+			PBXWorkspaceStateSaveDate = 259732689;
 		};
 		sourceControlManager = B71576880F79F18E00065F9F /* Source Control */;
 		userBuildSettings = {
 		};
 	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1196, 672}}";
+			sepNavSelRange = "{398, 0}";
+			sepNavVisRange = "{0, 1681}";
+			sepNavWindowFrame = "{{38, 32}, {948, 720}}";
+		};
+	};
+	77631A3E0C0748CF005415CB /* main.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{414, 0}";
+			sepNavVisRange = "{0, 466}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
 	8D1107260486CEB800E47090 /* OggifyOSX */ = {
 		activeExec = 0;
 		executables = (
-			B71576790F79F17C00065F9F /* OggifyOSX */,
+			B71576790F79F17C00065F9F /* Oggify */,
 		);
 	};
-	B71576790F79F17C00065F9F /* OggifyOSX */ = {
+	B71576790F79F17C00065F9F /* Oggify */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -67,7 +97,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = OggifyOSX;
+		name = Oggify;
 		sourceDirectories = (
 		);
 	};
