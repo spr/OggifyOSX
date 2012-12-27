@@ -1,0 +1,10 @@
+Oggify OS X
+===========
+
+GUI for Oggify on OS X
+
+This is a basic GUI for Oggify for use of OS X. It is no longer actively
+developed. Written using the Objective C - Python bridge.
+
+The project is released as GPLv2, due to the dependency on Mutagen for tag
+writing.
